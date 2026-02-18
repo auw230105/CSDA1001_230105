@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototypes
+
 void input_array(int arr[], int n);
 void print_array(int arr[], int n);
 
@@ -17,7 +17,6 @@ int main(void)
     return 0;
 }
 
-// Function definitions
 void input_array(int arr[], int n)
 {
     for(int i = 0; i < n; i++)

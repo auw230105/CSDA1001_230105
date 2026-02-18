@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototype
+
 int sum_array(int arr[], int n);
 
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 int sum_array(int arr[], int n)
 {
     int sum = 0;

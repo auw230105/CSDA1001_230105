@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototype
+
 int ticket_price(int age, int student);
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 int ticket_price(int age, int student)
 {
     if(age < 12)

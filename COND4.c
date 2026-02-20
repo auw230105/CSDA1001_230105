@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <stdbool.h>
 
-// Function prototype
+
 bool is_leap(int year);
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 bool is_leap(int year)
 {
     if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))

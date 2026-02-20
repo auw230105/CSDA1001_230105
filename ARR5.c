@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <stdbool.h>
 
-// Function prototype
+
 bool is_palindrome(int arr[], int len);
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
     int digits[10]; // assuming max 10 digits
     int len = 0;
 
-    // Store digits into array
+   
     while(temp > 0)
     {
         digits[len] = temp % 10;
@@ -20,7 +20,7 @@ int main(void)
         len++;
     }
 
-    // Check palindrome
+    
     if(is_palindrome(digits, len))
         printf("%d is a Palindrome\n", n);
     else
@@ -29,7 +29,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 bool is_palindrome(int arr[], int len)
 {
     for(int i = 0; i < len / 2; i++)

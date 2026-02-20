@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototype
+
 int max3(int a, int b, int c);
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 int max3(int a, int b, int c)
 {
     int max = a;

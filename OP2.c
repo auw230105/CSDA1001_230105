@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototype
+
 float fahrenheit(float c);
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 float fahrenheit(float c)
 {
     return (c * 9 / 5) + 32;

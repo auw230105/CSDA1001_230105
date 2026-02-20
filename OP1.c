@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototypes
+
 int add(int a, int b);
 int subtract(int a, int b);
 int multiply(int a, int b);
@@ -20,7 +20,7 @@ int main(void)
     return 0;
 }
 
-// Function definitions
+
 int add(int a, int b)
 {
     return a + b;

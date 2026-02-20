@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <stdbool.h>
 
-// Function prototype
+
 bool is_even(int n);
 
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 bool is_even(int n)
 {
     return n % 2 == 0;

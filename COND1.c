@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototype
+
 int sign(int n);
 
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 int sign(int n)
 {
     if(n > 0)

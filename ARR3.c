@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototype
+
 void count_even_odd(int arr[], int n, int *even, int *odd);
 
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 void count_even_odd(int arr[], int n, int *even, int *odd)
 {
     *even = 0;

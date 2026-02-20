@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototype
+
 char grade(int marks);
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 char grade(int marks)
 {
     if(marks >= 80 && marks <= 100)

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// Function prototype
+
 long factorial(int n);
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
     return 0;
 }
 
-// Function definition
+
 long factorial(int n)
 {
     long result = 1;
